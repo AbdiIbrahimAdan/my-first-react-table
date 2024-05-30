@@ -1,0 +1,31 @@
+
+.table-data{
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  margin-left: 450px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 15px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #bbb4b4;
+}
